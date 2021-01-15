@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+  height: 100%;
+}
+
+.App-header {
+  background-color: #5275bb;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.home-page {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.login-form {
+  margin-top: 50px;
+}
+
+.listing-page {
+  margin: 20px;
+}
+
+.listing-page button{
+  margin-bottom: 20px;
+  float: right;
+}
+
+.bordered-div{
+  border-style: groove;
+  border-width: 1px;
+  margin: auto;
+  width: 70%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
